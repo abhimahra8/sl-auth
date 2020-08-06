@@ -31,5 +31,8 @@ For development, you will only need Node.js and a node global package, installed
 
     $ npm start
 
+## Running migration file to create tables in db
+
+    $ npm run migrate
 
 #### Email: abhimahra08@gmail.com

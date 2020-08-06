@@ -24,7 +24,8 @@
   "scripts": {
     "build": "npm run purge && npx tsc",
     "purge": "rm -rf dist",
-    "start": "node 'dist/src/index.js'"
+    "start": "node 'dist/src/index.js'",
+    "migrate": "sequelize db:migrate"
   },
   "author": "Abhishek Mahra",
   "license": "ISC"
