@@ -8,24 +8,24 @@ module.exports = {
         user_id: {
           allowNull: false,
           primaryKey: true,
-          type: Sequelize.STRING(30),
+          type: Sequelize.STRING(200),
         },
         user_email: {
           allowNull: false,
-          type: Sequelize.STRING(4),
+          type: Sequelize.STRING(100),
         },
         user_dob: {
-          type: Sequelize.STRING(16),
+          type: Sequelize.STRING(30),
         },
         user_name: {
-          type: Sequelize.STRING(16),
+          type: Sequelize.STRING(100),
         },
         user_phone: {
-          type: Sequelize.STRING(16),
+          type: Sequelize.STRING(20),
         },
         user_password: {
           allowNull: false,
-          type: Sequelize.STRING(500),
+          type: Sequelize.STRING(1000),
         },
         createdAt: {
           type: "TIMESTAMP",
