@@ -16,7 +16,7 @@ export class Users {
             } else {
                 return {
                     status: 403,
-                    message: "password does not match in our records"
+                    message: "Invalid user_email or password"
                 }
             }
         } 
